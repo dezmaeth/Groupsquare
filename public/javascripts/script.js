@@ -3,8 +3,9 @@
 var GroupSquare = GroupSquare = function() {
 
 	var __construct = function() { 
+		
 		if (navigator.geolocation) { 
-			//navigator.geolocation.getPosition();
+			navigator.geolocation.getPosition();
 		}
 	}	
 
